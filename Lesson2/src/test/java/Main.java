@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class TokenGenerator {
+public class Main {
 
     private static final Random random = new Random();
 
