@@ -2,7 +2,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
-
+    private static final String Token = "abcdefghijklmnopqrstuvxy" + "ABCDEFGHIJKLMNOPQRSTUVWXYZ" + "0123456789" + "!@#$%^&*()";
     private static final Random random = new Random();
 
     public static void main(String[] args) {
@@ -23,8 +23,6 @@ public class Main {
     }
 
     public static String tokenGenerator(int length) {
-
-        String Token = "abcdefghijklmnopqrstuvxy" + "ABCDEFGHIJKLMNOPQRSTUVWXYZ" + "0123456789" + "!@#$%^&*()";
         StringBuilder sB = new StringBuilder(length);
 
         for (int i = 0; i < length; i++) {
